@@ -29,11 +29,11 @@ load_dotenv()
 N_RESERVE_QUERY_TOKENS = 200
 
 # Approximate average size of a document in the database. This is used to determine how
-# many documents to fetch from the database.
-APPROX_DOCUMENT_SIZE = 200
+# many documents to fetch from the database. SIZE IS IN TOKENS.
+APPROX_DOCUMENT_SIZE = 30000
 
 # Print debugging info to the console
-DEBUG = False
+DEBUG = True
 
 # Avoid the following warning:
 # huggingface/tokenizers: The current process just got forked, after parallelism has

@@ -1,0 +1,13 @@
+{
+    "name": "My Dev Container",
+    "image": "dar4gpt:version1",
+    "customizations": {
+        "workbench.colorTheme": "Default Dark+",
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
